@@ -7,8 +7,8 @@ require('dotenv').config()
 const sendEmail = require('../helpers/sendEmail')
 const fast2sms = require("fast-two-sms");
 const axios = require('axios')
-const accountSid = 'AC27d171ab7d6a9fd574afc31d8ef82f97';
-const authToken = 'aadd30b11d30cd6ec6b2ea7e093d1fb5';
+const accountSid = 'SECRET_KEY';
+const authToken = 'SECRET_TOKEN';
 const client = require('twilio')(accountSid, authToken);
 
 
